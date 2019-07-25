@@ -7,7 +7,20 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data(){
+    return{
+
+    }
+  },
+  created(){
+    this.test();
+  },
+  methods:{
+    test(){
+      console.log('1111111')
+    }
+  }
 }
 </script>
 
