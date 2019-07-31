@@ -14,11 +14,15 @@ export default {
     }
   },
   created(){
-    this.test();
+    this.initMethod();
   },
   methods:{
-    test(){
-      console.log('1111111')
+    initMethod(){
+      /**
+       * 向路由中添加对应的path 地址
+       * path 地址会在配置的路由中找出对应的path进行跳转
+       */
+      return this.$router.push({ path: '/head', query: { from: vm.$router.currentRoute.path } });
     }
   }
 }

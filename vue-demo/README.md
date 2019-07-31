@@ -19,3 +19,9 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+# 添加路由基本配置
+  1.当访问项目是默认加载App.vuew文件
+  2.在App.vue文件中可以编写逻辑指定路由跳转到对应的页面
+  3.在路由文件(src/router/index.js)中添加需要跳转对应的组件
+  4.

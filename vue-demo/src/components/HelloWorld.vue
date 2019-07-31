@@ -80,12 +80,16 @@
         </a>
       </li>
     </ul>
+    <head></head>
   </div>
 </template>
 
 <script>
+
+import Head from "./Head"
 export default {
   name: 'HelloWorld',
+  components: {Head},
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
